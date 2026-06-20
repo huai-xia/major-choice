@@ -1,0 +1,13 @@
+# Build artifacts
+output/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
