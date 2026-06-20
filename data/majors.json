@@ -148,7 +148,11 @@
       "programming_requirement": 5,
       "hardware_relevance": 1,
       "status": "completed",
-      "doc_path": "docs/majors/software-engineering.md"
+      "doc_path": "docs/majors/software-engineering.md",
+      "salary": {"fresh": {"min": 10000, "max": 22000, "median": 14000}, "mid_3_5yr": {"min": 20000, "max": 45000, "median": 28000}, "senior_5_10yr": {"min": 30000, "max": 80000, "median": 45000}, "expert_10yr_plus": {"min": 40000, "max": 150000, "median": 70000}},
+      "core_courses": [{"name": "数据结构", "difficulty": 4, "semester": "大一/大二", "category": "编程基础"}, {"name": "软件设计与体系结构", "difficulty": 4, "semester": "大三", "category": "专业核心"}, {"name": "软件测试", "difficulty": 3, "semester": "大三", "category": "专业核心"}, {"name": "Java企业级开发", "difficulty": 4, "semester": "大三", "category": "工程实践"}, {"name": "云计算与微服务", "difficulty": 4, "semester": "大三", "category": "前沿方向"}],
+      "employment_directions": [{"name": "后端开发", "salary_range": "10-22k", "demand": "high"}, {"name": "全栈开发", "salary_range": "12-25k", "demand": "high"}, {"name": "DevOps/SRE", "salary_range": "12-25k", "demand": "high"}, {"name": "移动端开发", "salary_range": "10-20k", "demand": "medium"}],
+      "prospect": {"trend": "白银时代", "risk_35": "较高", "ceiling": "较高"}
     },
     {
       "id": "cyber-security",
@@ -165,7 +169,11 @@
       "programming_requirement": 4,
       "hardware_relevance": 2,
       "status": "completed",
-      "doc_path": "docs/majors/cyber-security.md"
+      "doc_path": "docs/majors/cyber-security.md",
+      "salary": {"fresh": {"min": 10000, "max": 25000, "median": 15000}, "mid_3_5yr": {"min": 22000, "max": 50000, "median": 30000}, "senior_5_10yr": {"min": 30000, "max": 80000, "median": 50000}, "expert_10yr_plus": {"min": 45000, "max": 200000, "median": 80000}},
+      "core_courses": [{"name": "密码学", "difficulty": 5, "semester": "大二", "category": "理论核心"}, {"name": "系统安全", "difficulty": 5, "semester": "大三", "category": "专业核心"}, {"name": "AI安全", "difficulty": 5, "semester": "大三", "category": "前沿方向"}, {"name": "计算机网络", "difficulty": 4, "semester": "大二", "category": "基础必修"}, {"name": "逆向工程", "difficulty": 5, "semester": "大三", "category": "实战技能"}],
+      "employment_directions": [{"name": "安全运营/SOC", "salary_range": "10-20k", "demand": "highest"}, {"name": "渗透测试/红队", "salary_range": "12-25k", "demand": "high"}, {"name": "AI安全/模型红队", "salary_range": "18-35k", "demand": "rising"}, {"name": "逆向/恶意软件分析", "salary_range": "15-30k", "demand": "high"}, {"name": "密码学/隐私计算", "salary_range": "15-30k", "demand": "high"}],
+      "prospect": {"trend": "超级蓝海", "risk_35": "极低", "ceiling": "极高"}
     },
     {
       "id": "microelectronics",
@@ -182,7 +190,11 @@
       "programming_requirement": 2,
       "hardware_relevance": 5,
       "status": "completed",
-      "doc_path": "docs/majors/microelectronics.md"
+      "doc_path": "docs/majors/microelectronics.md",
+      "salary": {"fresh": {"min": 12000, "max": 25000, "median": 15000}, "mid_3_5yr": {"min": 25000, "max": 65000, "median": 38000}, "senior_5_10yr": {"min": 35000, "max": 100000, "median": 60000}, "expert_10yr_plus": {"min": 50000, "max": 250000, "median": 100000}},
+      "core_courses": [{"name": "半导体物理", "difficulty": 5, "semester": "大二", "category": "物理基础"}, {"name": "集成电路设计", "difficulty": 5, "semester": "大三", "category": "专业核心"}, {"name": "模拟IC设计", "difficulty": 5, "semester": "大三", "category": "专业核心"}, {"name": "微电子工艺", "difficulty": 4, "semester": "大三", "category": "专业核心"}, {"name": "数字IC设计", "difficulty": 4, "semester": "大三", "category": "专业核心"}],
+      "employment_directions": [{"name": "数字IC设计", "salary_range": "15-25k(本)/25-40k(硕)", "demand": "highest"}, {"name": "模拟IC设计", "salary_range": "30-45k(硕)", "demand": "high"}, {"name": "芯片制造/工艺", "salary_range": "12-18k", "demand": "high"}, {"name": "EDA工具开发", "salary_range": "18-28k", "demand": "rising"}, {"name": "AI芯片架构", "salary_range": "30-50k", "demand": "rising"}],
+      "prospect": {"trend": "黄金赛道", "risk_35": "极低", "ceiling": "极高"}
     },
     {
       "id": "automation",
@@ -199,7 +211,11 @@
       "programming_requirement": 3,
       "hardware_relevance": 4,
       "status": "completed",
-      "doc_path": "docs/majors/automation.md"
+      "doc_path": "docs/majors/automation.md",
+      "salary": {"fresh": {"min": 8000, "max": 22000, "median": 12000}, "mid_3_5yr": {"min": 18000, "max": 50000, "median": 28000}, "senior_5_10yr": {"min": 28000, "max": 80000, "median": 45000}, "expert_10yr_plus": {"min": 40000, "max": 120000, "median": 65000}},
+      "core_courses": [{"name": "自动控制原理", "difficulty": 5, "semester": "大二", "category": "理论核心"}, {"name": "现代控制理论", "difficulty": 5, "semester": "大三", "category": "理论核心"}, {"name": "PLC原理与应用", "difficulty": 4, "semester": "大三", "category": "工业实践"}, {"name": "嵌入式系统", "difficulty": 4, "semester": "大三", "category": "软硬结合"}, {"name": "机器视觉", "difficulty": 4, "semester": "大三", "category": "AI交叉"}],
+      "employment_directions": [{"name": "工业自动化(PLC/DCS)", "salary_range": "8-15k", "demand": "highest"}, {"name": "自动驾驶(规划/控制)", "salary_range": "15-30k", "demand": "high"}, {"name": "智能装备/机器人", "salary_range": "12-20k", "demand": "high"}, {"name": "嵌入式/硬件", "salary_range": "12-22k", "demand": "high"}, {"name": "机器视觉/AI质检", "salary_range": "15-25k", "demand": "rising"}],
+      "prospect": {"trend": "黄金赛道", "risk_35": "较低", "ceiling": "较高"}
     },
     {
       "id": "robotics",
@@ -216,7 +232,11 @@
       "programming_requirement": 3,
       "hardware_relevance": 5,
       "status": "completed",
-      "doc_path": "docs/majors/robotics.md"
+      "doc_path": "docs/majors/robotics.md",
+      "salary": {"fresh": {"min": 10000, "max": 30000, "median": 18000}, "mid_3_5yr": {"min": 20000, "max": 100000, "median": 45000}, "senior_5_10yr": {"min": 30000, "max": 200000, "median": 80000}, "expert_10yr_plus": {"min": 50000, "max": 300000, "median": 120000}},
+      "core_courses": [{"name": "机器人学基础", "difficulty": 5, "semester": "大二", "category": "理论核心"}, {"name": "ROS开发与实践", "difficulty": 4, "semester": "大三", "category": "工程实践"}, {"name": "机器人运动规划与控制", "difficulty": 5, "semester": "大三", "category": "专业核心"}, {"name": "计算机视觉", "difficulty": 4, "semester": "大三", "category": "AI交叉"}, {"name": "机器学习/深度学习", "difficulty": 5, "semester": "大三", "category": "AI交叉"}],
+      "employment_directions": [{"name": "运动控制算法", "salary_range": "20-40k", "demand": "highest"}, {"name": "具身智能/AI", "salary_range": "25-50k", "demand": "highest"}, {"name": "感知/视觉(SLAM)", "salary_range": "18-35k", "demand": "high"}, {"name": "嵌入式/电控", "salary_range": "15-25k", "demand": "high"}, {"name": "机械结构设计", "salary_range": "12-22k", "demand": "medium"}],
+      "prospect": {"trend": "爆发期", "risk_35": "极低", "ceiling": "极高"}
     }
   ]
 }
